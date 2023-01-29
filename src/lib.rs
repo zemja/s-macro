@@ -15,13 +15,13 @@ use syn::{Expr, Lit};
 /// ```
 /// use s_macro::s;
 ///
-/// assert!(s!() == String::new());
-/// assert!(s!("hello, world") == String::from("hello, world"));
-/// assert!(s!(123 + 321) == format!("{}", 123 + 321));
+/// assert!(s!()                   == String::new());
+/// assert!(s!("hello, world")     == String::from("hello, world"));
+/// assert!(s!(123 + 321)          == format!("{}", 123 + 321));
 ///
 /// let world = "world";
 /// assert!(s!("hello, {}", world) == format!("hello, {}", world));
-/// assert!(s!("hello, {world}") == format!("hello, {world}"));
+/// assert!(s!("hello, {world}")   == format!("hello, {world}"));
 /// ```
 #[proc_macro]
 pub fn s(input: TokenStream) -> TokenStream {
