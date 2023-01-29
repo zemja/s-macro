@@ -13,7 +13,7 @@ use syn::{Expr, Lit};
 /// # Examples
 ///
 /// ```
-/// use s::s;
+/// use s_macro::s;
 ///
 /// assert!(s!() == String::new());
 /// assert!(s!("hello, world") == String::from("hello, world"));

@@ -1,9 +1,8 @@
 [package]
-name = "s"
-version = "0.0.0"
+name = "s-macro"
+version = "0.1.0"
 authors = ["ethan"]
-description = "A `cargo generate` template for quick-starting a procedural macro crate"
-keywords = ["template", "proc_macro", "procmacro"]
+keywords = ["string", "easy", "proc_macro", "procmacro"]
 edition = "2018"
 
 [lib]
@@ -13,4 +12,3 @@ proc-macro = true
 quote = "1"
 proc-macro2 = "1.0"
 syn = "1.0"
-
