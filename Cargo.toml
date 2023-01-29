@@ -2,8 +2,11 @@
 name = "s-macro"
 version = "0.1.0"
 authors = ["ethan"]
-keywords = ["string", "easy", "proc_macro", "procmacro"]
+description = "A basic Rust library for conveniently making a String."
+keywords = ["string", "sugar", "easy", "macro", "proc_macro"]
 edition = "2018"
+repository = "https://github.com/zemja/s-macro"
+license = "Unlicense"
 
 [lib]
 proc-macro = true

@@ -1,6 +1,6 @@
 # `s-macro`
 
-A basic Rust library for conveniently making `String`s. Like so:
+A basic Rust library for conveniently making a `String`. Like so:
 
 ```rust
 use s_macro::s;
